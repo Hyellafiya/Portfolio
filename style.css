@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+header {
+  background: #020617;
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #38bdf8;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #38bdf8;
+}
+
+.card {
+  background: #020617;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #020617;
+  font-size: 14px;
+}
